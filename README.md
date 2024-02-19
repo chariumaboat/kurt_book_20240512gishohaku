@@ -1,3 +1,17 @@
+# 概要
+- 2024/05/12に[技術書同人誌博覧会](https://gishohaku.dev/)で頒布予定の寒川のカートコバーンの新刊用リポジトリ
+- 本リポジトリをCloneして、PR出してください
+
+## 執筆者向け
+- [記法チートシート](https://gist.github.com/erukiti/c4e3189dda179a0f0b73299fb5787838)
+- [Markdownで書く場合](https://raw.githubusercontent.com/erukiti/easybooks/master/example/about-easybooks.md)
+
+- pdfの作り方
+
+```bash
+$ docker run -t --rm -v $(pwd):/book vvakame/review:3.2 /bin/bash -ci "cd /book && yarn && yarn build"
+```
+
 # ReBook
 Re:VIEW で本や卒論を書いてGitHub ActionsでPDFやePubを生成するテンプレート「[ReBook](https://github.com/kaitas/ReBook/)」です。
 
