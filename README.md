@@ -1,93 +1,109 @@
-# 概要
-- 2024/05/12に[技術書同人誌博覧会](https://gishohaku.dev/)で頒布予定の寒川のカートコバーンの新刊用リポジトリ
-- 本リポジトリをCloneして、PR出してください
+# 月間寒川のカートコバーン
 
-## 執筆者向け
-- [記法チートシート](https://gist.github.com/erukiti/c4e3189dda179a0f0b73299fb5787838)
-- [Markdownで書く場合](https://raw.githubusercontent.com/erukiti/easybooks/master/example/about-easybooks.md)
+## 概要説明
+本のタイトル：月刊寒川のカートコバーン
 
-- pdfの作り方
+## この本の目的
+真のコバーンの権威を広める
+などなど。
 
-```bash
+## 執筆・配布スケジュール
+募集開始・環境構築：2024月03月220日
+本文初稿：2024月04月20日
+原稿締め切り：2024年04月30日
+発行:2024年05月12日　技書博(蒲田:大田区産業プラザPiO)
+
+## 著者紹介兼あとがき
+Contributers.re内に、テンプレートに従って記入ください。
+
+## 執筆にあたってのお願い
+GitHubで原稿ファイルを管理しています。
+
+まずは、https://github.com/chariumaboat/kurt_book_20240512gishohaku からForkしてください。
+原稿が書けたら、当該リポジトリにプルリクを出してください。
+適宜マージします。
+
+見本の章を参考に、Markdownで本文を書くとスムーズです。
+
+### 命名規則
+chap-名前-title.md
+
+画像は、
+/images/chap-名前-title/xx.png
+として格納してください。
+
+nirvana.jsonの下の方に、執筆原稿を参照しているところがあります。ここにファイル名を追記してください。
+
+### その他の注意
+
+Confrictが発生した場合は、解決お願いします。または、ご相談ください。
+
+push -f等はやめましょう。（歴史を書き換えてはいけません。
+
+相談事：
+Issue立ててください。
+
+雑談、ざっくばらんな相談については、馬鹿博覧会alpha版でお願いします。
+
+その他不明点、相談事はAIコバーンまで。https://twitter.com/114bot
+
+## 執筆方法
+
+本書は、easybooks を使って発行されています。easybooks では Markdown か Re:VIEW で記述します。
+
+* [Markdownでの書き方](https://raw.githubusercontent.com/erukiti/easybooks/master/example/about-easybooks.md)
+* [Re:VIEWチートシート](https://gist.github.com/erukiti/c4e3189dda179a0f0b73299fb5787838) を作ってみたので、参考にしてみてください。
+
+また、プレーンテキストやWordとかでの提出も可能です。編集部にてコンバートします。
+Slackの馬鹿博覧会alpha版にてご相談ください。
+
+## インストール
+
+### Dockerを使う方法
+
+Dockerを使うのが一番手軽です。とても面倒なTeXのインストールなどを全てDockerでやってくれるため、何も悩むことはありません。
+
+Dockerがある環境ならば、batファイルまたはshファイル叩くとPDFが生成されます。
+
+```sh
 $ docker run -t --rm -v $(pwd):/book vvakame/review:3.2 /bin/bash -ci "cd /book && yarn && yarn build"
 ```
 
-# ReBook
-Re:VIEW で本や卒論を書いてGitHub ActionsでPDFやePubを生成するテンプレート「[ReBook](https://github.com/kaitas/ReBook/)」です。
+このコマンドの実行が成功すれば、コンパイルされたPDFが、`.review/寒川のカートコバーン.pdf` として出力されます。
 
-- この[リンク](https://github.com/kaitas/ReBook/generate) から、お使いの GitHub アカウントで無料で利用できます。
-- リポジトリは[こちら](https://github.com/kaitas/ReBook/)です
+Mac なら `open .review/寒川のカートコバーン.pdf` で PDF を開くことができます。
 
-これで電車の中でも原稿が書けます！
-たとえばスマホで Git が使えるツール、iPhone/iPad だと [Working Copy](https://apps.apple.com/jp/app/working-copy-git-client/id896694807) や、本家GitHubクライアントなどが使えます。
+### WindowsでReviewを使う方法
 
-なお拙著「[AIとコラボして神絵師になる 論文で読み解くStable Diffusion](https://ivtv.page.link/ap)」（Stable Diffusionの公開から2ヵ月で出版）は Re:VIEWを使って執筆しました。
+https://qiita.com/implicit_none/items/398c6e0bbedc8b160621
+暗黙の型宣言さんが詳しく書いてくれてます。あるいは、技術同人誌を書こう‐アウトプットのススメ‐をご覧ください。
 
-## コンセプト
+Windows10(Home/Pro問わず)であれば、WSL＋docker越しにRe:VIWEを扱う方法もあります。https://qiita.com/hoshimado/items/7592cee28c1bde545b78
 
-- 完璧に無料で使える ePub ＆ PDF 生成
-- 卒論や技術書典などの技術同人誌に使える
-- rubyをインストールしない
-- Re:ViewもTeXもインストールしない
-- GitHub の Issue や Project を使って校正したり複数人でコラボレーションできる
-- GitHub Pages をつかって執筆内容の Webサイト を同時生成する
-- GitHub および Actions だけで完結する
-- できるだけ覚えることを少なくする（書くことに集中したいから）
+※2019/11/04時点で、次の環境にて後述のdockerコマンドからコンパイル出来ることを確認済み。
 
-## 使い方
+<!-- (3.1指定は、2.x環境と共存のため) -->
 
-1. このプロジェクトをクローン、もしくはテンプレートとして新規作成。
-2. あとは `contents`フォルダにある `sample.re` ファイルを書き換えて
-3. git pushして
-4. Actionsから眺めていれば、ArtifactsにZIP圧縮された PDF や ePub ファイルが生成されます。
-5. 章やファイルを増やしたいときは `catalog.yml` を見ましょう
-6. Re:VIEWの書式がわからないときは[調べましょう](https://github.com/kmuto/review/blob/master/doc/format.ja.md)
+* Microsoft Windows 10 Home Version 1903 
+* Ubuntu 16.01
+* Docker version 17.03.2-ce, build f5ec1e2
+* Docker image : vvakame/review (tag:3.1)
+* Docker image : vvakame/review (tag:3.2)
 
-## 注意事項
+### Dockerを使わずにビルドする
 
-### Webサイトの生成が不要な時は
+* TeX をインストールする
+* Ruby をインストールする
+  * review gem をインストールする
+* Node.js をインストールする
 
-Jekyllを使ってWebサイトを自動生成して公開します。GitHub PagesによるHTML版の書籍も同時公開できますが、書籍によっては即時公開を望まない場合もあると思います。
-GitHub PagesによるWebサイト生成が不要な場合は
+```sh
+yarn && yarn build
+```
 
-- `.github/workflows/jekyll-gh-pages.yml` を削除してください
+### 権利
 
-### 細かいことをしたいときは…
+ベースには、[TechBooster/ReVIEW\-Template: TechBoosterで利用しているRe:VIEWのテンプレート（B5/A5/電子書籍）](https://github.com/TechBooster/ReVIEW-Template) を使っています。
 
-多くは `config.yml` で指定されているファイルです。
-
-デフォルトは B5 の書籍に設定してありますが、細かい指定も `config.yml` で行います。
-
-- coverimage: cover-a5.ai (表紙画像ファイル) `/images/DHP-Metaverse.ai` というファイルになっています。Adobe Illustratorで作成してください（PDF互換形式）。
-
-どうしても入手方法や修正方法がわからない場合は、[Re:VIEW Starter](https://kauplan.org/reviewstarter/) で、新規電子書籍プロジェクトを作成してみるとよいと思います。
-
-
-
-## 参考資料
-
-Re:VIEWを始めやすくするためのスタートラインとしては、kauplanさんの [Re:VIEW Starter](https://kauplan.org/reviewstarter/) を参考にしています。
-
-- https://kauplan.org/reviewstarter/
-- https://qiita.com/kauplan/items/d01e6e39a05be0b908a1
-
-ただし、Re:VIEW Starter では `Re:VIEW 3.0 や 4.0 はサポートしていません` と明言されていますので、本プロジェクトでは最新の Re:VIEW 5.5 を使って GitHub Actions でビルドするようにしています。
-vvakameさんありがとうございます。
-
-- docker://vvakame/review:5.5
-
-また、GitHub Actions で以下のモジュールを使っています。
-
-- actions/checkout@v3
-- actions/upload-artifact@v3
-
-この場をお借りして感謝の意を述べさせていただきます。
-
-テンプレートとして公開しますが、フォークやプルリクエストなど歓迎です。
-
-Happy authoring life!
-
- - 白井暁彦 [@o_ob](https://twitter.com/o_ob) [akihiko.shirai.as](https://akihiko.shirai.as/)
-
-
-
+  * 設定ファイル、テンプレートなど制作環境（techbooster-doujin.styなど）はMITライセンスです
+    * 再配布などMITライセンスで定める範囲で権利者表記をおねがいします
