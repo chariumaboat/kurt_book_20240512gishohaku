@@ -8,16 +8,9 @@ on:
       - main
 
 jobs:
-  Setup:
-    runs-on: ubuntu-latest
-    steps:
-    - run: echo Setup
-
   buildPDF:
     name: Re:VIEW Workflow PDF
     runs-on: ubuntu-latest
-    container: docker://vvakame/review:5.5
-    needs: Setup
     steps:
       - uses: actions/checkout@v4
       - name: Build PDF
