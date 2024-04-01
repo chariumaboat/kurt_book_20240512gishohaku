@@ -4,9 +4,9 @@
 
 すぐ消すbotとは何か。T氏が初めてPythonで作成し、ガレソに取り上げられ、はちま起稿に記事となった原体験のことである。
 
-![ガレソ](images/chap-example-sugukesu/gareso.png?scale=0.5)
+![ガレソ](images/chap-chariumaboat-sugukesu/gareso.png?scale=0.5)
 
-![はちま](images/chap-example-sugukesu/hatima.png?scale=0.5)
+![はちま](images/chap-chariumaboat-sugukesu/hatima.png?scale=0.5)
 
 T氏は何故これを作ったのか、これを作って何があったのか、T氏しか知り得ないのでヒアリングした。その結果を今ここに記す。
 
