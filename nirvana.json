@@ -39,7 +39,8 @@
     "CHAPS": [
       "chap-example-ng.re",
       "chap-example-ldl.md",
-      "chap-example-sugukesu.md"
+      "chap-example-sugukesu.md",
+      "chap-makeman-title.md"
     ],
     "POSTDEF": [
       "contributors.re",
