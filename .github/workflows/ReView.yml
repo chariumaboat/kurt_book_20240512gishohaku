@@ -52,7 +52,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build PDF
-        run: rake pdf
+        run: cd /book && yarn && yarn build
       - uses: actions/upload-artifact@v3
         with:
           name: pdf
