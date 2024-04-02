@@ -61,3 +61,4 @@ f/1揺らぎ　カオス/フラクタル　フォルマント周波数
 ## 真の音楽とは
 
 ![真の音楽](images/chap-makeman-title/true_music.png?scale=5)
+
