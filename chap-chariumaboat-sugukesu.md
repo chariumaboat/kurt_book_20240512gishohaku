@@ -61,7 +61,7 @@ TwitterというSaaSは画像・動画に関して凍結されるまでの間で
 
 ちなみにT氏はこの辺りでやる気をなくして消して会員制陰湿倶楽部「馬鹿博覧会」としてプログラムのアップデートを続けた。私はそれをゲラゲラ笑いながら見ていた。穏やかな午後であった。
 
-![よくわからない弁明](images/chap-chariumaboat-sugukesu/fujosi3.jpeg?scale=0.5)
+![よくわからない弁明](images/chap-chariumaboat-sugukesu/fujosi3.png?scale=0.5)
 
 インターネットに公開してこの感じは危機感がないのが心配になってしまう。T氏のメッサージュが伝わらなかったようだ。
 
