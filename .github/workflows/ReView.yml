@@ -25,3 +25,5 @@ jobs:
         with:
           name: cobain.pdf
           path: .review/寒川のカートコバーン.pdf
+          if-no-files-found: error
+          retention-days: 90
