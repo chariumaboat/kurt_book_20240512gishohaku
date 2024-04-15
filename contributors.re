@@ -47,6 +47,18 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
 //}
 この木なんの木、ティモトルキ。
 
+　
+//embed{
+    \begin{minipage}{.1\linewidth}
+        \centering
+        \includegraphics[width=.75\linewidth]{images/contributors/makeman.png}
+    \end{minipage}
+    \begin{minipage}{.89\linewidth}
+        川崎のギャンブル負けマン a.k.a 移籍馬bot https://twitter.com/Keiba\_transfers\\
+        \end{minipage}
+    \hspace{1ex}
+//}
+最近は競輪で負けてる
 
 == 表紙イラスト・デザイン　
 //embed{
