@@ -53,7 +53,7 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
         \includegraphics[width=.75\linewidth]{images/contributors/internet_nature.png}
     \end{minipage}
     \begin{minipage}{.89\linewidth}
-        インターネット・ナイスネイチャ https://twitter.com/internet_nature\\
+        インターネット・ナイスネイチャ https://x.gd/sjGWU\\
         \end{minipage}
     \hspace{1ex}
 //}
