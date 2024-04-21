@@ -88,6 +88,18 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
 世界を見渡せるような、高い目標に向かって進んでいこう。
 
 
+//embed{
+    \begin{minipage}{.1\linewidth}
+        \centering
+        \includegraphics[width=.75\linewidth]{images/contributors/paoooo.jpg}
+    \end{minipage}
+    \begin{minipage}{.89\linewidth}
+        フロリダの矢澤にこhttps://twitter.com/tsubaki283\\
+        \end{minipage}
+    \hspace{1ex}
+//}
+いつもお前のこと監視ているよ
+
 
 == 表紙イラスト・デザイン　
 //embed{
