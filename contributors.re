@@ -61,10 +61,8 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
     \hspace{1ex}
 //}
 インターネット・ナイスネイチャ
-
 　
-
-
+ 
 
 //embed{
     \begin{minipage}{.1\linewidth}
@@ -110,6 +108,19 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
 //}
 いつもお前のこと監視ているよ
 　
+
+
+//embed{
+    \begin{minipage}{.1\linewidth}
+        \centering
+        \includegraphics[width=.75\linewidth]{images/contributors/miruto.jpeg}
+    \end{minipage}
+    \begin{minipage}{.89\linewidth}
+        milrt https://twitter.com/milrt\\
+        \end{minipage}
+    \hspace{1ex}
+//}
+女児
 
 
 
