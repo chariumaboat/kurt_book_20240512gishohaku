@@ -4,7 +4,7 @@
   "aut": [],
   "language": "ja",
   "toc": true,
-  "rights": "(C) 2023　寒川のカートコバーン",
+  "rights": "(C) 2024　寒川のカートコバーン",
   "colophon": true,
   "history": [
     [
@@ -41,7 +41,8 @@
       "chap-makeman-title.md",
       "chap-water.md",
       "chap-sytkm-credit.md",
-      "chap-milrt.md"
+      "chap-milrt.md",
+      "chap-cobain-rockstar.md"
     ],
     "POSTDEF": [
       "contributors.re",
