@@ -27,8 +27,8 @@
 >Take it to the top
 >
 >Whisper my world
->
->引用 : https://codewithrockstar.com/
+
+引用 : https://codewithrockstar.com/
 
 ## ロックスターの言語
 勘の良い人間にはわかるだろうが上記は歌のように見えるれっきとしたFizzBuzzのプログラムである。
@@ -47,7 +47,10 @@
 ## コーディング
 そんなものはしない、何故なら本物のロックスターだから。
 それに俺が本気でコーディングしたらまた消されてしまうだろう…Nevermind minus oneのようにな。
+
+```md
 ~~仕様がめんどくさ過ぎる。~~
+```
 
 ## なんとかならんか
 それでも紡ぎたい、歌詞を。本物の歌を。
@@ -63,14 +66,18 @@ https://github.com/yyyyyyyan/rockstar-py
 
 以下でインストールをする。
 
-```pip install rockstar-py```
+```
+pip install rockstar-py
+```
 
 そして用意したpythonを引数に渡して動かすと、、、
 
-```rockstar-py --stdin -o samukawa.py``` 
+```
+rockstar-py --stdin -o samukawa.py
+``` 
 
 
-![真のコバーン](images/chap-cobain-rockstar/kart.jpg?scale=5)
+![真のコバーン](images/chap-cobain-rockstar/kart.jpg?scale=0.5)
 
 動かない。（コマンド実行でフリーズ）
 

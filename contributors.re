@@ -47,6 +47,7 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
 //}
 この木なんの木、ティモトルキ。
 
+　
 
 
 //embed{
@@ -60,7 +61,11 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
     \hspace{1ex}
 //}
 インターネット・ナイスネイチャ
+
 　
+
+
+
 //embed{
     \begin{minipage}{.1\linewidth}
         \centering
@@ -72,6 +77,8 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
     \hspace{1ex}
 //}
 最近は競輪で負けてる
+
+　
 
 
 
@@ -87,6 +94,9 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
 //}
 世界を見渡せるような、高い目標に向かって進んでいこう。
 
+　
+
+
 
 //embed{
     \begin{minipage}{.1\linewidth}
@@ -99,6 +109,8 @@ nevermind Part3制作中の日本に生まれ変わったグランジの帝王�
     \hspace{1ex}
 //}
 いつもお前のこと監視ているよ
+　
+
 
 
 == 表紙イラスト・デザイン　
